@@ -1,6 +1,24 @@
 .fondo{
-    background-color: #ccc;
-    height: 100vh;
+    color: #fff;
+    background: linear-gradient(45deg,red,blue,rgb(28, 101, 184),rgb(206, 41, 165));
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 21s ease-in-out infinite;
+    min-height: 100vh;
+}
+
+@keyframes cambiar {
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+#tarjetafondo{
+    background-color: rgba(255, 255, 255, 0.918);
+    color: black;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .LogoWindows{
