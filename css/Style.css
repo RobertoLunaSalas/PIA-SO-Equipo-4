@@ -1,11 +1,39 @@
 .fondo{
     background-color: #ccc;
-    height: 100vh;
+    height: 100%;
 }
 
 .LogoWindows{
     height: 40px;
     width: auto;
+}
+
+.titulo{
+    text-align: center;
+    padding: 35px;
+}
+
+h2{
+    display: inline-block;
+    position: relative;
+    Font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+}
+
+h2::after, h2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top: 0.6em;
+}
+
+h2::before{
+    left: -140px;
+}
+
+h2::after{
+    right: -140px;
 }
 
 .pdfview{
