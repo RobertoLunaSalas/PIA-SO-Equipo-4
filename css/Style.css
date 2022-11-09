@@ -13,6 +13,29 @@
     100%{background-position: 0 50%;}
 }
 
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#banner img {
+    width: 100%;
+    height: 450px;
+}
+
+#banner .contenedor{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-11%) translateY(-450%);
+    color: #fff;
+}
+
+#banner h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
 #tarjetafondo{
     background-color: rgba(255, 255, 255, 0.918);
     color: black;
