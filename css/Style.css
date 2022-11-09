@@ -31,6 +31,18 @@
     padding: 35px;
 }
 
+.info{
+    text-align: center;
+    color:#fff;
+    font-family: 'Libre Baskerville', serif;
+    box-shadow: 0 4px 8px 0 rgba(0.3, 0.3, 0.3, 0.3),
+    0 6px 20px 0 rgba(0.19, 0.19, 0.19, 0.19);
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 50vh;
+    margin-right: 50vh;
+}
+
 h2{
     display: inline-block;
     position: relative;
