@@ -1,79 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PIA Equipo 4</title>
     <link rel="stylesheet" href="css/Style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-        <nav class="nav nav-pills p-3 justify-content-center" id="nabvar">
-            <a href="index.html"><img class="LogoWindows" src="https://cdn-icons-png.flaticon.com/512/882/882600.png" alt="Logo windows"></a>
-            <a href="index.html" class="nav-link" aria-current="page">Inicio</a>
-            <a href="Sistema Operativo.html" class="nav-link">Sistema Operativo</a>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Actividades</a>
-                <ul class="dropdown-menu">
-                    <li>
-                        <a href="AF1.html" class="dropdown-item">Fundamental 1</a>
-                        <a href="AF2.html" class="dropdown-item">Fundamental 2</a>
-                        <a href="AF3.html" class="dropdown-item">Fundamental 3</a>
-                        <a href="AF4.html" class="dropdown-item">Fundamental 4</a>
-                    </li>
-                </ul>
-            </li>
-            <a href="Equipo.html" class="nav-link">Equipo</a>
-        </nav>
+    <nav class="nav nav-pills p-3 justify-content-center" id="nabvar">
+        <a href="index.html"><img class="LogoWindows" src="https://cdn-icons-png.flaticon.com/512/882/882600.png"
+                alt="Logo windows"></a>
+        <a href="index.html" class="nav-link" aria-current="page">Inicio</a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Sistema
+                Operativo</a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="HistoriWindows11.html" class="dropdown-item">Historia De Windows 11</a>
+                    <a href="ProgramacionW11.html" class="dropdown-item">Programación de Windows 11</a>
+                    <a href="RequisitosHW11.html" class="dropdown-item">Requisitos de hardware para Windows 11</a>
+                    <a href="EstructuraSistemaW.html" class="dropdown-item">Estructura del Sistema</a>
+                    <a href="SeguridadW11.html" class="dropdown-item">La Seguridad en Windows 11</a>
+                    <a href="Bibliografias.html" class="dropdown-item">Bibliografías</a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"
+                aria-expanded="false">Actividades</a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="AF1.html" class="dropdown-item">Fundamental 1</a>
+                    <a href="AF2.html" class="dropdown-item">Fundamental 2</a>
+                    <a href="AF3.html" class="dropdown-item">Fundamental 3</a>
+                    <a href="AF4.html" class="dropdown-item">Fundamental 4</a>
+                </li>
+            </ul>
+        </li>
+        <a href="Equipo.html" class="nav-link">Equipo</a>
+    </nav>
 
-        <div class="fondo">
-            <main>
-                <section id="banner">
-                    <img class="img-fluid" src="img/bannerwin.jpg">
-                    <div class="contenedor">
-                        <h1>Sistemas Operativos</h1>
-                    </div>
-                </section>
-            </main>
-            <div class="container">
-                <center><h2>¿Que es un Sistema Operativo?</h2></center>
-                <p>
-                    Un sistema operativo en palabras simples es un interprete que ayuda a comunicarse al usuario y la maquina, tambien se puede decir que es un conjunto de programas que permite manejar la memoria, disco, medios de 
-                    almacenamiento de información y los diferentes periféricos o recursos de nuestra computadora, como son el teclado, el mouse, la impresora, la placa de red, entre otros. 
-                </p>
-                <center><img class="SO" src="img/SO.png" width="auto" height="500" alt=""></center>
-                <p>
-                    Los periféricos utilizan un driver o controlador y son desarrollados por los fabricantes de cada equipo. 
-                    Encontramos diferentes sistemas operativos como Windows, Linux, MAS OS, en sus diferentes versiones. También los teléfonos y tablets poseen un sistema operativo.
-                    Dentro de las tareas que realiza el sistema operativo, en particular, se ocupa de gestionar la memoria de nuestro sistema y la carga de los diferentes programas, para ello cada programa tiene una prioridad o jerarquía y en función de la misma contará con los recursos de nuestro sistema por más tiempo que un programa de menor prioridad.
-                    El sistema operativo se ocupa también de correr procesos. Llamamos proceso a la carga en memoria de nuestro programa, si no está cargado en memoria nuestro programa simplemente “no corre”.
-                </p>
+    <div class="fondo">
+        <main>
+            <section id="banner">
+                <img class="img-fluid" src="img/bannerwin.jpg">
+                <div class="contenedor">
+                    <h1>Sistemas Operativos</h1>
+                </div>
+            </section>
+        </main>
+        <div class="container">
+            <center>
+                <h2>¿Que es un Sistema Operativo?</h2>
+            </center>
+            <p>
+                Un sistema operativo en palabras simples es un interprete que ayuda a comunicarse al usuario y la
+                maquina, tambien se puede decir que es un conjunto de programas que permite manejar la memoria, disco,
+                medios de
+                almacenamiento de información y los diferentes periféricos o recursos de nuestra computadora, como son
+                el teclado, el mouse, la impresora, la placa de red, entre otros.
+            </p>
+            <center><img class="SO" src="img/SO.png" width="auto" height="500" alt=""></center>
+            <p>
+                Los periféricos utilizan un driver o controlador y son desarrollados por los fabricantes de cada equipo.
+                Encontramos diferentes sistemas operativos como Windows, Linux, MAS OS, en sus diferentes versiones.
+                También los teléfonos y tablets poseen un sistema operativo.
+                Dentro de las tareas que realiza el sistema operativo, en particular, se ocupa de gestionar la memoria
+                de nuestro sistema y la carga de los diferentes programas, para ello cada programa tiene una prioridad o
+                jerarquía y en función de la misma contará con los recursos de nuestro sistema por más tiempo que un
+                programa de menor prioridad.
+                El sistema operativo se ocupa también de correr procesos. Llamamos proceso a la carga en memoria de
+                nuestro programa, si no está cargado en memoria nuestro programa simplemente “no corre”.
+            </p>
 
-                <center> <h2>Hardware y software</h2></center>
-                <p>
-                    Comencemos con algunas definiciones: a todo equipo informático lo llamaremos hardware, en el caso de una computadora, hablamos de la CPU, la pantalla, el teclado, mouse, cables, chips, memorias, etc. Mientras que llamaremos software a los programas que corren en nuestra computadora como así también al sistema operativo.
-                    Todos los días utilizamos diferentes dispositivos más allá una computadora, esos dispositivos o sistemas son conocidos como equipos autónomos o sistemas embebidos o dedicados. Este tipo de equipamiento cuenta con un microprocesador o con un microcontrolador que es el “cerebro” de nuestro sistema, el cual puede poseer o no un sistema operativo.
-                </p>
-                <p>
-                    Al igual que una computadora, posee memoria, almacenamiento, entradas y salidas pero se diferencia porque tiene un objetivo específico, por ejemplo: podemos pensar en los lectores de tarjeta del colectivo, en máquinas de café, bebidas o golosinas. En lugar de contar con un teclado alfabético y númerico, posee un teclado para seleccionar opciones o en lugar de un monitor, cuenta con una pantalla de menor tamaño o un conjunto de visores o display. Este tipo de sistemas suele convivir con otros de su mismo tipo o integrado a un ecosistema de diversos equipos, habitualmente dentro de una red.
-                </p>
-                <center><img class="SO" src="img/hardware.jpg" width="auto" height="400" alt=""></center>
-                <p></p>
+            <center>
+                <h2>Hardware y software</h2>
+            </center>
+            <p>
+                Comencemos con algunas definiciones: a todo equipo informático lo llamaremos hardware, en el caso de una
+                computadora, hablamos de la CPU, la pantalla, el teclado, mouse, cables, chips, memorias, etc. Mientras
+                que llamaremos software a los programas que corren en nuestra computadora como así también al sistema
+                operativo.
+                Todos los días utilizamos diferentes dispositivos más allá una computadora, esos dispositivos o sistemas
+                son conocidos como equipos autónomos o sistemas embebidos o dedicados. Este tipo de equipamiento cuenta
+                con un microprocesador o con un microcontrolador que es el “cerebro” de nuestro sistema, el cual puede
+                poseer o no un sistema operativo.
+            </p>
+            <p>
+                Al igual que una computadora, posee memoria, almacenamiento, entradas y salidas pero se diferencia
+                porque tiene un objetivo específico, por ejemplo: podemos pensar en los lectores de tarjeta del
+                colectivo, en máquinas de café, bebidas o golosinas. En lugar de contar con un teclado alfabético y
+                númerico, posee un teclado para seleccionar opciones o en lugar de un monitor, cuenta con una pantalla
+                de menor tamaño o un conjunto de visores o display. Este tipo de sistemas suele convivir con otros de su
+                mismo tipo o integrado a un ecosistema de diversos equipos, habitualmente dentro de una red.
+            </p>
+            <center><img class="SO" src="img/hardware.jpg" width="auto" height="400" alt=""></center>
+            <p></p>
 
-                <center><h2>Introducción a Windows 11</h2></center>
-                
-                <center><img class="img-thumbnail" src="img/win11.jpeg" width="auto" height="100" alt=""></center>
-                <p>
-                    Windows 11 es el próximo sistema operativo cliente, e incluye características que las organizaciones deben conocer. Windows 11 se creó con la misma base que Windows 10. Si usa Windows 10, Windows 11 es una transición natural. Es una actualización de lo que conoces y con lo que estás familiarizado. 
-                    Ofrece innovaciones centradas en la mejora de la productividad del usuario final, y está diseñado para soportar el entorno de trabajo híbrido actual. 
-                </p>
-                <p>
-                    Sus inversiones en la administración de actualizaciones y dispositivos se mantienen. Por ejemplo, muchas de las mismas aplicaciones y herramientas pueden utilizarse en Windows 11. Muchas de las mismas configuraciones y directivas de seguridad pueden aplicarse a los dispositivos de Windows 11, incluidos los PC. Puede usar Windows Autopilot con una implementación táctil cero para inscribir los dispositivos Windows en Microsoft Intune. También puede utilizar funciones más nuevas, como Azure Virtual Desktop y Windows 365 en sus dispositivos Windows 11.
-                </p>
+            <center>
+                <h2>Introducción a Windows 11</h2>
+            </center>
 
-            </div>
+            <center><img class="img-thumbnail" src="img/win11.jpeg" width="auto" height="100" alt=""></center>
+            <p>
+                Windows 11 es el próximo sistema operativo cliente, e incluye características que las organizaciones
+                deben conocer. Windows 11 se creó con la misma base que Windows 10. Si usa Windows 10, Windows 11 es una
+                transición natural. Es una actualización de lo que conoces y con lo que estás familiarizado.
+                Ofrece innovaciones centradas en la mejora de la productividad del usuario final, y está diseñado para
+                soportar el entorno de trabajo híbrido actual.
+            </p>
+            <p>
+                Sus inversiones en la administración de actualizaciones y dispositivos se mantienen. Por ejemplo, muchas
+                de las mismas aplicaciones y herramientas pueden utilizarse en Windows 11. Muchas de las mismas
+                configuraciones y directivas de seguridad pueden aplicarse a los dispositivos de Windows 11, incluidos
+                los PC. Puede usar Windows Autopilot con una implementación táctil cero para inscribir los dispositivos
+                Windows en Microsoft Intune. También puede utilizar funciones más nuevas, como Azure Virtual Desktop y
+                Windows 365 en sus dispositivos Windows 11.
+            </p>
+
         </div>
+    </div>
 </body>
+
 </html>
