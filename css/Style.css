@@ -26,8 +26,8 @@ section {
 #banner .contenedor{
     position: relative;
     top: 50%;
-    left: 50%;
-    transform: translateX(-11%) translateY(-450%);
+    text-align: center;
+    transform: translateX(0) translateY(-450%);
     color: #fff;
 }
 
@@ -115,9 +115,10 @@ div#formulario {
 p{
     padding-top: 15px;
     font-size: larger;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
+    padding-bottom: 15px;
 }
+
 
 .pdfview{
     margin: auto;
