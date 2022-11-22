@@ -2,7 +2,7 @@
 
 .fondo{
     color: #fff;
-    background: linear-gradient(45deg,rgb(148, 90, 196),rgb(101, 130, 192),rgb(78, 162, 168),rgb(206, 41, 165));
+    background: linear-gradient(45deg,rgb(0, 0, 0),rgb(47, 202, 93),rgb(240, 55, 55),rgb(255, 255, 255));
     background-size: 400% 400%;
     position: relative;
     animation: cambiar 12s ease-in-out infinite;
