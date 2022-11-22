@@ -66,11 +66,9 @@
                 Estos procesos corresponden, entre otras cosas, a las aplicaciones que en cada momento ejecuta el
                 usuario. Sin embargo, además de los asociados al navegador o al juego de turno, nos encontramos con
                 otros llamados "de sistema", que sostienen el funcionamiento general de Windows.</p>
-            <p>
-                Para ejecutar un programa, este se carga en memoria, la memoria RAM. Este programa es cargado mediante
-                procesos, los cuales llevan su código binario asociado y los recursos que necesita para operar, que
-                serán asignados de forma “inteligente” por el sistema operativo.
-            </p>
+           
+                <center><img src="img/hilos.png" height="400px" alt=""></center>
+                
 
             <p>Los recursos básicos que necesita un proceso son, un contador de programa, y una pila de registros:</p>
             <ul>
@@ -89,12 +87,7 @@
                 es como el procesador y el sistema son capaces de ejecutar varias tareas al mismo tiempo, lo que
                 denominamos sistema multitarea. Este sistema de procesamiento es el culpable de que podamos seguir
                 trabajando en nuestro PC, aunque un programa se haya quedado bloqueado.</p>
-            <p>Hay un proceso del sistema muy conocido por los usuarios de Windows, se trata del famoso svchost.exe.
-                Según Microsoft, svchost.exe es el nombre genérico de un proceso anfitrión para servicios que se
-                ejecutan a través de librerías enlazadas dinámicamente. Hace tiempo que la compañía migró las funciones
-                de los servicios de Windows a ficheros DLL en lugar de EXE. Pero, como no se puede ejecutar un archivo
-                DLL directamente en Windows, tiene que ser cargado con un ejecutable, y precisamente svchost.exe fue ese
-                archivo.</p>
+            
             <p>Normalmente hay varias instancias de “svchost” corriendo simultáneamente. No es adecuado ejecutar todos
                 los servicios desde una única, ya que un fallo en la misma haría que todos los servicios asociados se
                 colgasen. De ahí que sea conveniente utilizar un proceso svchost.exe para cada servicio. Por eso tienes
