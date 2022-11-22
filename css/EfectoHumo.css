@@ -166,7 +166,7 @@ span:nth-of-type(21) {
 
 .fondo{
     color: #fff;
-    background: linear-gradient(45deg,red,blue,rgb(28, 101, 184),rgb(206, 41, 165));
+    background: linear-gradient(45deg,rgb(0, 0, 0),rgb(47, 202, 93),rgb(240, 55, 55),rgb(255, 255, 255));
     background-size: 400% 400%;
     position: relative;
     animation: cambiar 21s ease-in-out infinite;
@@ -176,4 +176,13 @@ span:nth-of-type(21) {
 .LogoWindows{
     height: 40px;
     width: auto;
+}
+
+h2{
+  text-align: center;
+}
+p{
+  text-align: justify;
+  padding: 15px;
+  font-size: 23px;
 }
