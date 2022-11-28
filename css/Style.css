@@ -68,7 +68,7 @@ section {
     position: relative;
     top: 50%;
     text-align: center;
-    transform: translateX(0) translateY(-450%);
+    transform: translateX(0) translateY(-290%);
     color: #fff;
 }
 
@@ -264,4 +264,7 @@ p{
 
 ol{
   font-size: 30px;
+}
+nav{
+    font-size: 25px;
 }
